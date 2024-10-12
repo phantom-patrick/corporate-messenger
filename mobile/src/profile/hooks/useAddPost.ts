@@ -38,6 +38,10 @@ export const useAddPost = () => {
           mediaContent: post.mediaContent,
         },
       });
+      console.log('before');
+
+      console.log('after');
+
       navigation.goBack();
     } catch (err) {
       console.log(err);
